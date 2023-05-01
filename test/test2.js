@@ -10,7 +10,7 @@ var operaciones = require('../operations.js');
 it('comprobar función resta', function() {
   operaciones.resta.should.be.a.Function();
   should.equal(operaciones.resta(7,4), 3);
-  should.equal(operaciones.resta(1,3), -2);
+  should.equal(operaciones.resta(1,4), -3);
 	should.equal(operaciones.resta(1,3), -2);
 });
 
